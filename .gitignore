@@ -1,0 +1,21 @@
+# Ignorar arquivos e pastas comuns em projetos Python
+# Ambiente virtual
+venv/
+
+# Arquivos Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Arquivos de ambiente
+.env
+
+# Configurações do IDE
+.vscode/
+
+# Arquivos de logs ou dados temporários
+*.log
+*.db
